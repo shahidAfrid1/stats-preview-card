@@ -1,0 +1,35 @@
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.flex{
+    display: flex;
+
+    &-jc-sb{
+        justify-content: space-between;
+    }
+
+    &-jc-c{
+        justify-content: center;
+    }
+
+    &-jc-e{
+        justify-content: space-evenly;
+    }
+    &-ai-c{
+        align-items: center;
+    }
+
+}
